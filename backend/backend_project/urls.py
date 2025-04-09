@@ -25,5 +25,5 @@ urlpatterns = [
 ]
 
 urlpatterns += [
-    path('', RedirectView.as_view(url='backend_app/', permanent='True')),
+    path('', RedirectView.as_view(url='backend_app/')),
 ]
